@@ -1,6 +1,8 @@
 # Projeto Soluti
 
-O SQL encontra-se no diretório ./docker/db/sql/
+
+As portas 3306 e 80 devem estar disponíveis.
+O SQL encontra-se no diretório `./docker/db/sql/`
 
 ## Comandos do docker-compose
 Execute os seguintes comandos no seu host:

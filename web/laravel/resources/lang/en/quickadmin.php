@@ -13,16 +13,9 @@ return [
 		],
 	],
 	
-	'companies' => [
-		'title' => 'Companies',
-		'fields' => [
-			'name' => 'Name',
-			'description' => 'Description',
-		],
-	],
 
 	'upload' => [
-		'title' => 'Upload Arquivo',
+		'title' => 'Upload',
 		'fields' => [
 			'upload' => 'upload',
 			'name_file' => 'Name file',
@@ -33,7 +26,7 @@ return [
 	],
 
 	'user-file' => [
-		'title' => 'Usuário Arquivo',
+		'title' => 'Usuário do Upload',
 		'fields' => [
 			'group' => 'Group',
 			'name' => 'Name',

@@ -1,0 +1,5 @@
+web/laravel/node_modules
+web/laravel/vendor
+web/laravel/resources/client/assets/js/components/cruds/UploadFile/Index.vue
+web/laravel/public/mix-manifest.json
+web/laravel/public/client/js/app.js

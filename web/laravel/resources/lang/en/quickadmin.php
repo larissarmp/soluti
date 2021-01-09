@@ -2,19 +2,6 @@
 
 return [
 	
-	'user-management' => [
-		'title' => 'User management',
-		'fields' => [
-		],
-	],
-	
-	'roles' => [
-		'title' => 'Roles',
-		'fields' => [
-			'title' => 'Title',
-		],
-	],
-	
 	'users' => [
 		'title' => 'Users',
 		'fields' => [
@@ -31,17 +18,6 @@ return [
 		'fields' => [
 			'name' => 'Name',
 			'description' => 'Description',
-		],
-	],
-	
-	'employees' => [
-		'title' => 'Employees',
-		'fields' => [
-			'company' => 'Company',
-			'first-name' => 'First name',
-			'last-name' => 'Last name',
-			'email' => 'Email',
-			'phone' => 'Phone',
 		],
 	],
 
@@ -317,5 +293,5 @@ return [
 	'qa_customer' => 'Customer',
 	'qa_select_all' => 'Select all',
 	'qa_deselect_all' => 'Deselect all',
-	'quickadmin_title' => 'Vue Demo',
+	'quickadmin_title' => 'Upload de Pdf',
 ];

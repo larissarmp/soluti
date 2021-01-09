@@ -15,7 +15,7 @@ class CreateUploadFilesTable extends Migration
     {
         Schema::create('upload_files', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('id_user_file')->unsigned();
+            $table->integer('user_file_id')->unsigned();
             $table->string('name_file');
             $table->string('name_user');
             $table->string('url_file');
@@ -25,7 +25,7 @@ class CreateUploadFilesTable extends Migration
             $table->softDeletes();
 
             
-            $table->foreign('id_user_file')
+            $table->foreign('user_file_id')
             ->references('id')->on('user_files');
         });
     }

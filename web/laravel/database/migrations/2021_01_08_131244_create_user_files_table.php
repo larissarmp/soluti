@@ -15,7 +15,7 @@ class CreateUserFilesTable extends Migration
     {
         Schema::create('user_files', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('id_group')->unsigned();
+            $table->integer('group_id')->unsigned();
             $table->string('name');
             $table->string('email', 100);
             $table->string('group_name');
@@ -23,7 +23,7 @@ class CreateUserFilesTable extends Migration
             $table->timestamps();
             $table->softDeletes();
 
-            $table->foreign('id_group')
+            $table->foreign('group_id')
             ->references('id')->on('groups');
         });
     }
